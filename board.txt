@@ -1,0 +1,34 @@
+name=mikroe-6lowpan
+description=MikroE 6LoWPAN Clicker
+group=MikroElektronika
+platform=pic32
+board=_BOARD_6LOWPAN_CLICKER_
+board.flags=
+ccflags=ffff
+ldscript=chipKIT-application-32MX470F512${upload.${prefs:board.${prefs:board}.programmer}.ldsuffix}.ld
+upload.protocol=stk500v2
+upload.maximum_size=516096
+upload.speed=115200
+build.mcu=32MX470F512H
+build.f_cpu=96000000L
+build.core=pic32
+family=pic32
+version=0.6
+revision=2
+core=chipkit
+
+options.usb.name=USB Settings
+options.usb.default=withSerial
+options.usb.purge=true
+options.usb.withoutSerial.name=Disable USB Serial
+options.usb.withoutSerial.flags=
+options.usb.withSerial.name=Enable USB Serial
+options.usb.withSerial.flags=-D_USE_USB_FOR_SERIAL_
+
+icon.128=icons/mikroe128.png
+icon.64=icons/mikroe64.png
+icon.48=icons/mikroe48.png
+icon.32=icons/mikroe32.png
+icon.22=icons/mikroe22.png
+icon.16=icons/mikroe16.png
+
