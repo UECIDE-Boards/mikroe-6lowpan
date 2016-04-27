@@ -265,7 +265,7 @@ const uint8_t digital_pin_to_pps_out_PGM[] = {
     _PPS_OUT(_PPS_RPF4R),   //  8: TX / RF4
     _PPS_OUT(_PPS_RPD5R),   //  9: RX / RD5
     _PPS_OUT(_PPS_RPD0R),   // 10: INT / RD0
-    _PPS_OUT(_PPS_RPF3R),   // 11: PWM / RF3
+    NOT_PPS_PIN,            // 11: PWM / RF3
 
     // LEDs and Buttons
     _PPS_OUT(_PPS_RPB1R),   // 11: LD0 / RB1
@@ -316,7 +316,7 @@ const uint8_t digital_pin_to_pps_in_PGM[] = {
     _PPS_IN(_PPS_RPF4),   //  8: TX / RF4
     _PPS_IN(_PPS_RPD5),   //  9: RX / RD5
     _PPS_IN(_PPS_RPD0),   // 10: INT / RD0
-    _PPS_IN(_PPS_RPF3),     // 11: PWM / RF3
+    NOT_PPS_PIN,            // 11: PWM / RF3
 
     // LEDs and Buttons
     _PPS_IN(_PPS_RPB1),   // 11: LD0 / RB1
