@@ -1,0 +1,16 @@
+Source: mikroe-6lowpan
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: mikroe-6lowpan
+Section: boards
+Architecture: all
+XBSC-Group: MikroElektronika
+Depends: chipkit
+Description: MikroE 6LoWPAN
+
+
+
